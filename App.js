@@ -11,13 +11,16 @@ const Tab = createMaterialTopTabNavigator();
 
 const App = () => {
   return (
-    <NavigationContainer>
-      <Tab.Navigator>
-        <Tab.Screen name="대기" component={PendingScreen} />
-        <Tab.Screen name="진행" component={OnGoingScreen} />
-        <Tab.Screen name="완료" component={CompleteScreen} />
-      </Tab.Navigator>
-    </NavigationContainer>
+    <>
+      <Text>배달현황</Text>
+      <NavigationContainer>
+        <Tab.Navigator>
+          <Tab.Screen name="대기" component={PendingScreen} />
+          <Tab.Screen name="진행" component={OnGoingScreen} />
+          <Tab.Screen name="완료" component={CompleteScreen} />
+        </Tab.Navigator>
+      </NavigationContainer>
+    </>
   );
 };
 
