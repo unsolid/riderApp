@@ -1,13 +1,8 @@
 import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
 
-const BluetoothListLayout = ({title, children}) => {
-  return (
-    <View style={styles.container}>
-      <Text style={styles.title}>{title}</Text>
-      {children}
-    </View>
-  );
+const BluetoothListLayout = ({children}) => {
+  return <View style={styles.container}>{children}</View>;
 };
 
 const styles = StyleSheet.create({

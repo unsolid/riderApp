@@ -4,7 +4,7 @@ import {View, Text, StyleSheet, Switch} from 'react-native';
 const Toggle = ({value, onValueChange}) => {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}> ON </Text>
+      <Text style={styles.text}> {value ? 'ON' : 'OFF'}</Text>
       <Switch
         style={styles.switch}
         value={value}
