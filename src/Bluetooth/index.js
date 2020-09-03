@@ -13,15 +13,16 @@ import Empty from './empty';
 import Toggle from './toggle';
 import Subtitle from './subtitle';
 
-import BluetoothSerial from 'react-native-bluetooth-serial-next';
+import BluetoothSerial, { isConnected } from 'react-native-bluetooth-serial-next';
 
 const Bluetooth = () => {
   const [device, setDevice] = useState('');
+  const [deviceId, setDeviceId] = useState('');
   const [list, setList] = useState([]);
   const [bolEnable, setBolEnable] = useState(false);
-  const [isConnected, setIsConnected] = useState(false);
-  const [paired, setPaired] = useState(false);
-  const [connected, setConnected] = useState(false);
+  const [connectedState, setConnectedState] = useState(false);
+  const [readA, setReadA] = useState('읽은게 없음');
+  const [readB, setReadB] = useState('읽은게 없음');
 
   useEffect(() => {
     async function init() {
@@ -30,9 +31,11 @@ const Bluetooth = () => {
       const isConnected = await BluetoothSerial.isConnected();
       setList(list);
       setBolEnable(enable);
-      setIsConnected(true);
       console.log(list);
       console.log(isConnected);
+      console.log(connectedState);
+
+      // readOnly();
     }
     init();
     return () => {
@@ -77,7 +80,6 @@ const Bluetooth = () => {
   const Device = ({name, setDevice, iconLeft, id}) => {
     const handlePress = () => {
       console.log(id);
-      pairDevice(id);
       connectDevice(id);
     };
     return (
@@ -111,10 +113,44 @@ const Bluetooth = () => {
       const connected = await BluetoothSerial.device(id).connect();
       if (connected) {
         console.log('connected');
+
+        setConnectedState(true);
+        setDeviceId(id);
       }
     } catch (error) {
       console.log(error);
     }
+  };
+
+  const handleRead = async () => {
+    try {
+      const data = await BluetoothSerial.readFromDevice(deviceId);
+      console.log(data);
+      if(data == 1){
+        setReadA(data);
+      } if(data == 2){
+        setReadB(data);
+      }
+    } catch (err) {
+      console.log(err);
+    }
+  };
+
+  useEffect(()=>{
+    if(isConnected)
+  },[])
+
+  const write = async () => {
+    try {
+      await BluetoothSerial.device(deviceId).write('콜 받을꺼에요?');
+      console.log('Successfuly wrote to device');
+    } catch (e) {
+      console.log(e.message);
+    }
+  };
+
+  const handleMessage = () => {
+    return write();
   };
 
   const renderEmpty = () => {
@@ -134,6 +170,21 @@ const Bluetooth = () => {
         ListEmptyComponent={renderEmpty}
         renderItem={renderItem}
       />
+
+      {connectedState ? (
+        <TouchableOpacity onPress={handleMessage}>
+          <Text>its connected</Text>
+        </TouchableOpacity>
+      ) : (
+        <Text>it ain't connected </Text>
+      )}
+      {connectedState ? (
+        <TouchableOpacity onPress={handleRead}>
+          <Text>read data</Text>
+        </TouchableOpacity>
+      ) : (
+        <Text> </Text>
+      )}
     </Layout>
   );
 };
