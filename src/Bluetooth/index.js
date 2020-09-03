@@ -13,7 +13,7 @@ import Empty from './empty';
 import Toggle from './toggle';
 import Subtitle from './subtitle';
 
-import BluetoothSerial, { isConnected } from 'react-native-bluetooth-serial-next';
+import BluetoothSerial, {isConnected} from 'react-native-bluetooth-serial-next';
 
 const Bluetooth = () => {
   const [device, setDevice] = useState('');
@@ -126,19 +126,16 @@ const Bluetooth = () => {
     try {
       const data = await BluetoothSerial.readFromDevice(deviceId);
       console.log(data);
-      if(data == 1){
+      if (data == 1) {
         setReadA(data);
-      } if(data == 2){
+      }
+      if (data == 2) {
         setReadB(data);
       }
     } catch (err) {
       console.log(err);
     }
   };
-
-  useEffect(()=>{
-    if(isConnected)
-  },[])
 
   const write = async () => {
     try {
