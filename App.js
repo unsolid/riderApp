@@ -1,9 +1,11 @@
 import 'react-native-gesture-handler';
-import React from 'react';
+import React, {useEffect} from 'react';
 import {View, Text, Button} from 'react-native';
 import {NavigationContainer} from '@react-navigation/native';
 import {createMaterialTopTabNavigator} from '@react-navigation/material-top-tabs';
 import {createStackNavigator} from '@react-navigation/stack';
+import SplashScreen from 'react-native-splash-screen';
+
 import PendingScreen from './src/Screens/Pending';
 import OnGoingScreen from './src/Screens/OnGoing';
 import CompleteScreen from './src/Screens/Complete';
@@ -37,6 +39,10 @@ const root = () => {
 };
 
 const App = () => {
+  useEffect(() => {
+    SplashScreen.hide();
+  }, []);
+
   return (
     <>
       <NavigationContainer>
