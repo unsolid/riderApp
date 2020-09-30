@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import {
   View,
   Button,
@@ -8,14 +8,26 @@ import {
   StyleSheet,
   FlatList,
 } from 'react-native';
+import Tts from 'react-native-tts';
+import WaitingCall from './WaitingCall';
+import DeliveryCall from './DelieveryCall';
 
 const Delievery = () => {
-  const handleHelmet = () => {};
-  return (
-    <View>
-      <Text>배달 콜 받는중</Text>
-    </View>
-  );
+  const [call, setCall] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setCall(false);
+    }, 3000);
+  });
+
+  const handleTts = (ttsText) => {
+    Tts.getInitStatus().then(() => {
+      Tts.speak(ttsText);
+    });
+  };
+
+  return <>{call ? <WaitingCall /> : <DeliveryCall />}</>;
 };
 
 export default Delievery;

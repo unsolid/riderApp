@@ -1,22 +1,24 @@
 import React from 'react';
 import {View, Text, Image, StyleSheet} from 'react-native';
 
-const BeforeHelmet = () => {
+import LoadingDots from 'react-native-loading-dots';
+
+const WaitingCall = () => {
   return (
     <View style={styles.wrapper}>
       <Image
         style={styles.image}
-        source={require('../../Assets/images/helmet.png')}
+        source={require('../../Assets/images/waitingCall.png')}
       />
-      <Text style={styles.title}>
-        <Text style={styles.titleEmph}>헬멧</Text>{' '}
-        <Text style={styles.title}>착용 하셨나요?</Text>
-      </Text>
+      <Text style={styles.title}>콜 잡는중</Text>
+      <View style={styles.loadingDots}>
+        <LoadingDots />
+      </View>
     </View>
   );
 };
 
-export default BeforeHelmet;
+export default WaitingCall;
 
 const styles = StyleSheet.create({
   wrapper: {
@@ -31,10 +33,10 @@ const styles = StyleSheet.create({
   image: {
     position: 'absolute',
     alignItems: 'center',
-    width: 320,
-    height: 305,
-    left: 40,
-    top: 200,
+    width: 245,
+    height: 350,
+    left: 80,
+    top: 100,
   },
   buttonName: {
     fontFamily: 'Roboto',
@@ -49,8 +51,8 @@ const styles = StyleSheet.create({
     position: 'absolute',
     width: 340,
     height: 100,
-    left: 70,
-    top: 550,
+    left: 140,
+    top: 600,
     fontFamily: 'Roboto',
     fontStyle: 'normal',
     fontWeight: 'bold',
@@ -59,18 +61,13 @@ const styles = StyleSheet.create({
 
     color: '#000000',
   },
-  titleEmph: {
+  loadingDots: {
     position: 'absolute',
-    width: 310,
-    height: 70,
-    left: 60,
-    top: 380,
-    fontFamily: 'Roboto',
-    fontStyle: 'normal',
-    fontWeight: 'bold',
-    fontSize: 30,
-    lineHeight: 32,
-
-    color: '#32D8BA',
+    justifyContent: 'center',
+    position: 'absolute',
+    width: 100,
+    height: 60,
+    left: 150,
+    top: 640,
   },
 });

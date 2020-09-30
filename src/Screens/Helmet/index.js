@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import {
   View,
   Button,
@@ -9,37 +9,44 @@ import {
   FlatList,
   Alert,
 } from 'react-native';
+import AwesomeAlert from 'react-native-awesome-alerts';
+import LoadingDots from 'react-native-loading-dots';
 
 import BeforeHelmet from './BeforeHelmet';
 import BluetoothHelmet from './BluetoothHelmet';
-import LoadingDots from 'react-native-loading-dots';
 
 const Helmet = ({navigation}) => {
   const [clicked, setClicked] = useState(true);
   const [time, setTime] = useState(false);
-  const [helmetStatus, setHelmetStatus] = useState(false);
+  const [confirmed, setConfirmed] = useState(true);
+  const [helmetStatus, setHelmetStatus] = useState(true);
 
-  const createTwoButtonAlert = () =>
-    Alert.alert(
-      '헬멧을 착용해주세요',
-      [
-        {
-          text: 'Cancel',
-          onPress: () => console.log('Cancel Pressed'),
-          style: 'cancel',
-        },
-        {text: 'OK', onPress: () => console.log('OK Pressed')},
-      ],
-      {cancelable: false},
-    );
-
-  const handleHelmet = () => {
-    // navigation.navigate('delievery');
-    setClicked(false);
+  const navigationToDelivery = () => {
+    console.log(confirmed);
     setTimeout(() => {
-      // setTime(true);
-      Alert.alert('헬멧을 착용해주세요');
-    }, 5000);
+      navigation.navigate('delievery');
+    }, 1000);
+  };
+  const handleHelmet = ({navigation}) => {
+    setClicked(false);
+    if (helmetStatus) {
+      setTimeout(() => {
+        setConfirmed(false);
+        navigationToDelivery();
+      }, 3000);
+    } else {
+      setTimeout(() => {
+        Alert.alert('헬멧을 착용해주세요');
+        setClicked(true);
+      }, 3000);
+    }
+  };
+
+  const helmetComparison = () => {
+    if (helmetStatus) {
+    } else {
+      return;
+    }
   };
 
   if (!time) {
@@ -52,13 +59,16 @@ const Helmet = ({navigation}) => {
               <Text style={styles.buttonName}> 콜 받기</Text>
             </TouchableOpacity>
           </>
-        ) : (
-          <View>
+        ) : confirmed ? (
+          <>
             <Text style={styles.title}>확인 중</Text>
+
             <View style={styles.loadingDots}>
               <LoadingDots />
             </View>
-          </View>
+          </>
+        ) : (
+          <Text style={styles.title}>확인 되었습니다</Text>
         )}
       </View>
     );
@@ -120,5 +130,17 @@ const styles = StyleSheet.create({
     lineHeight: 32,
 
     color: '#000000',
+  },
+  confirmed: {
+    position: 'absolute',
+    width: 340,
+    height: 100,
+    left: 100,
+    top: 570,
+    fontFamily: 'Roboto',
+    fontStyle: 'normal',
+    fontWeight: 'bold',
+    fontSize: 30,
+    lineHeight: 32,
   },
 });
