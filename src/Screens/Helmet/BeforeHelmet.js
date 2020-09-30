@@ -1,13 +1,5 @@
 import React from 'react';
-import {
-  View,
-  Button,
-  Text,
-  TouchableOpacity,
-  Image,
-  StyleSheet,
-  FlatList,
-} from 'react-native';
+import {View, Text, Image, StyleSheet} from 'react-native';
 
 const BeforeHelmet = () => {
   return (
