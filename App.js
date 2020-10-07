@@ -9,6 +9,7 @@ import SplashScreen from 'react-native-splash-screen';
 import Home from './src/Screens/Home';
 import Helmet from './src/Screens/Helmet';
 import Delievery from './src/Screens/Delievery';
+import Map from './src/Screens/Map';
 
 const Tab = createMaterialTopTabNavigator();
 const Stack = createStackNavigator();
@@ -26,25 +27,27 @@ const App = () => {
     SplashScreen.hide();
   }, []);
   return (
-    <NavigationContainer>
-      <Stack.Navigator initialRouteName="Home">
-        <Stack.Screen
-          name="Home"
-          component={HomeScreen}
-          options={{headerShown: false}}
-        />
-        <Stack.Screen
-          name="helmet"
-          component={HelmetScreen}
-          options={{headerShown: false}}
-        />
-        <Stack.Screen
-          name="delievery"
-          component={Delievery}
-          options={{headerShown: false}}
-        />
-      </Stack.Navigator>
-    </NavigationContainer>
+    <>
+      <NavigationContainer>
+        <Stack.Navigator initialRouteName="Home">
+          <Stack.Screen
+            name="Home"
+            component={HomeScreen}
+            options={{headerShown: false}}
+          />
+          <Stack.Screen
+            name="helmet"
+            component={HelmetScreen}
+            options={{headerShown: false}}
+          />
+          <Stack.Screen
+            name="delievery"
+            component={Delievery}
+            options={{headerShown: false}}
+          />
+        </Stack.Navigator>
+      </NavigationContainer>
+    </>
   );
 };
 

@@ -19,7 +19,9 @@ const Helmet = ({navigation}) => {
   const [clicked, setClicked] = useState(true);
   const [time, setTime] = useState(false);
   const [confirmed, setConfirmed] = useState(true);
-  const [helmetStatus, setHelmetStatus] = useState(true);
+  const [helmetStatus, setHelmetStatus] = useState(false);
+  const [nextHelmet, setNextHelmet] = useState(true);
+  const [nextConfirmed, setNextConfirmed] = useState(true);
 
   const navigationToDelivery = () => {
     console.log(confirmed);
@@ -27,6 +29,7 @@ const Helmet = ({navigation}) => {
       navigation.navigate('delievery');
     }, 1000);
   };
+
   const handleHelmet = ({navigation}) => {
     setClicked(false);
     if (helmetStatus) {
@@ -37,43 +40,62 @@ const Helmet = ({navigation}) => {
     } else {
       setTimeout(() => {
         Alert.alert('헬멧을 착용해주세요');
-        setClicked(true);
-      }, 3000);
+        setConfirmed(false);
+      }, 1500);
     }
   };
 
-  const helmetComparison = () => {
-    if (helmetStatus) {
-    } else {
-      return;
-    }
+  const handleNextHelmet = ({navigation}) => {
+    setNextHelmet(false);
+    setTimeout(() => {
+      setNextConfirmed(false);
+      navigationToDelivery();
+    }, 1500);
   };
 
   if (!time) {
     return (
-      <View>
-        {clicked ? (
-          <>
-            <BeforeHelmet />
-            <TouchableOpacity style={styles.button} onPress={handleHelmet}>
-              <Text style={styles.buttonName}> 콜 받기</Text>
-            </TouchableOpacity>
-          </>
-        ) : confirmed ? (
-          <>
-            <Text style={styles.title}>확인 중</Text>
+      <>
+        <View>
+          {clicked ? (
+            <>
+              <BeforeHelmet />
+              <TouchableOpacity style={styles.button} onPress={handleHelmet}>
+                <Text style={styles.buttonName}> 콜 받기</Text>
+              </TouchableOpacity>
+            </>
+          ) : confirmed ? (
+            <>
+              <Text style={styles.title}>확인 중</Text>
 
-            <View style={styles.loadingDots}>
-              <LoadingDots />
-            </View>
-          </>
-        ) : (
-          <Text style={styles.title}>확인 되었습니다</Text>
-        )}
-      </View>
+              <View style={styles.loadingDots}>
+                <LoadingDots />
+              </View>
+            </>
+          ) : nextHelmet ? (
+            <>
+              <BeforeHelmet />
+              <TouchableOpacity
+                style={styles.button}
+                onPress={handleNextHelmet}>
+                <Text style={styles.buttonName}> 콜 받기</Text>
+              </TouchableOpacity>
+            </>
+          ) : nextConfirmed ? (
+            <>
+              <Text style={styles.title}>확인 중</Text>
+
+              <View style={styles.loadingDots}>
+                <LoadingDots />
+              </View>
+            </>
+          ) : (
+            <Text style={styles.title}>확인 되었습니다</Text>
+          )}
+        </View>
+      </>
     );
   }
-  return <BluetoothHelmet />;
 };
 
 export default Helmet;

@@ -129,7 +129,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.riderapp"
+        applicationId "com.savery"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

@@ -14,7 +14,7 @@ import BluetoothSerial, {isConnected} from 'react-native-bluetooth-serial-next';
 const Delievery = () => {
   const [device, setDevice] = useState('');
   const [deviceId, setDeviceId] = useState('');
-  const [helmetStatus, setHelmetStatus] = useState(false);
+  const [helmetStatus, setHelmetStatus] = useState(true);
 
   useEffect(() => {
     async function init() {

@@ -1,4 +1,4 @@
-package com.riderapp;
+package com.savery;
 
 import android.os.Bundle;
 import com.facebook.react.ReactActivity;
@@ -19,6 +19,6 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "riderApp";
+    return "savery";
   }
 }

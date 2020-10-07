@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* riderAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* riderAppTests.m */; };
+		00E356F31AD99517003FC87E /* saveryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* saveryTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		1541838735895DE116F12628 /* libPods-riderApp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FC38EADCCF8E8A5C75B00C9 /* libPods-riderApp-tvOS.a */; };
-		1BAC68C024064639A3CA75A7 /* libPods-riderApp-riderAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F0750D18CE398DA89DF105 /* libPods-riderApp-riderAppTests.a */; };
+		1541838735895DE116F12628 /* libPods-savery-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FC38EADCCF8E8A5C75B00C9 /* libPods-savery-tvOS.a */; };
+		1BAC68C024064639A3CA75A7 /* libPods-savery-saveryTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F0750D18CE398DA89DF105 /* libPods-savery-saveryTests.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* riderAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* riderAppTests.m */; };
-		5898B598E9D82D666F359D45 /* libPods-riderApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE8057866474277304B31658 /* libPods-riderApp.a */; };
-		66E462F28D8BC5ADDC98C00D /* libPods-riderApp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 293D7E4A9215492D3404DF69 /* libPods-riderApp-tvOSTests.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* saveryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* saveryTests.m */; };
+		5898B598E9D82D666F359D45 /* libPods-savery.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE8057866474277304B31658 /* libPods-savery.a */; };
+		66E462F28D8BC5ADDC98C00D /* libPods-savery-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 293D7E4A9215492D3404DF69 /* libPods-savery-tvOSTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		9094F7CAA6CA41F199BA4F20 /* libRCTBluetoothSerial.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 028B81CD0A794B0B824D29B8 /* libRCTBluetoothSerial.a */; };
 /* End PBXBuildFile section */
@@ -29,43 +29,43 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = riderApp;
+			remoteInfo = savery;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "riderApp-tvOS";
+			remoteInfo = "savery-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* riderAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = riderAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* saveryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = saveryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* riderAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = riderAppTests.m; sourceTree = "<group>"; };
-		03F0750D18CE398DA89DF105 /* libPods-riderApp-riderAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-riderApp-riderAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07F961A680F5B00A75B9A /* riderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = riderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = riderApp/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = riderApp/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = riderApp/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = riderApp/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = riderApp/main.m; sourceTree = "<group>"; };
-		293D7E4A9215492D3404DF69 /* libPods-riderApp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-riderApp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E47B1E0B4A5D006451C7 /* riderApp-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "riderApp-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* riderApp-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "riderApp-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		49502885C9F5D36087214555 /* Pods-riderApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-riderApp-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-riderApp-tvOSTests/Pods-riderApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		71D2C60FB77A6F44D1979731 /* Pods-riderApp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-riderApp-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-riderApp-tvOSTests/Pods-riderApp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		7CD6BDF2C9ECEBE2CF58CE16 /* Pods-riderApp-riderAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-riderApp-riderAppTests.release.xcconfig"; path = "Target Support Files/Pods-riderApp-riderAppTests/Pods-riderApp-riderAppTests.release.xcconfig"; sourceTree = "<group>"; };
-		7D085592BF0BB38000F2BAEF /* Pods-riderApp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-riderApp-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-riderApp-tvOS/Pods-riderApp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = riderApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8FC38EADCCF8E8A5C75B00C9 /* libPods-riderApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-riderApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9CED88F04F1EC014556002B4 /* Pods-riderApp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-riderApp-tvOS.release.xcconfig"; path = "Target Support Files/Pods-riderApp-tvOS/Pods-riderApp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		9ED71C49D1B91FE0004C44B2 /* Pods-riderApp-riderAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-riderApp-riderAppTests.debug.xcconfig"; path = "Target Support Files/Pods-riderApp-riderAppTests/Pods-riderApp-riderAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		AED0F679CB9C0D4F3BAB1BD7 /* Pods-riderApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-riderApp.release.xcconfig"; path = "Target Support Files/Pods-riderApp/Pods-riderApp.release.xcconfig"; sourceTree = "<group>"; };
-		BE8057866474277304B31658 /* libPods-riderApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-riderApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E0927E181A56CEDAE043AAC8 /* Pods-riderApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-riderApp.debug.xcconfig"; path = "Target Support Files/Pods-riderApp/Pods-riderApp.debug.xcconfig"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* saveryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = saveryTests.m; sourceTree = "<group>"; };
+		03F0750D18CE398DA89DF105 /* libPods-savery-saveryTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-savery-saveryTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* savery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = savery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = savery/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = savery/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = savery/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = savery/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = savery/main.m; sourceTree = "<group>"; };
+		293D7E4A9215492D3404DF69 /* libPods-savery-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-savery-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E47B1E0B4A5D006451C7 /* savery-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "savery-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* savery-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "savery-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49502885C9F5D36087214555 /* Pods-savery-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-savery-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-savery-tvOSTests/Pods-savery-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		71D2C60FB77A6F44D1979731 /* Pods-savery-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-savery-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-savery-tvOSTests/Pods-savery-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7CD6BDF2C9ECEBE2CF58CE16 /* Pods-savery-saveryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-savery-saveryTests.release.xcconfig"; path = "Target Support Files/Pods-savery-saveryTests/Pods-savery-saveryTests.release.xcconfig"; sourceTree = "<group>"; };
+		7D085592BF0BB38000F2BAEF /* Pods-savery-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-savery-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-savery-tvOS/Pods-savery-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = savery/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8FC38EADCCF8E8A5C75B00C9 /* libPods-savery-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-savery-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CED88F04F1EC014556002B4 /* Pods-savery-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-savery-tvOS.release.xcconfig"; path = "Target Support Files/Pods-savery-tvOS/Pods-savery-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		9ED71C49D1B91FE0004C44B2 /* Pods-savery-saveryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-savery-saveryTests.debug.xcconfig"; path = "Target Support Files/Pods-savery-saveryTests/Pods-savery-saveryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AED0F679CB9C0D4F3BAB1BD7 /* Pods-savery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-savery.release.xcconfig"; path = "Target Support Files/Pods-savery/Pods-savery.release.xcconfig"; sourceTree = "<group>"; };
+		BE8057866474277304B31658 /* libPods-savery.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-savery.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0927E181A56CEDAE043AAC8 /* Pods-savery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-savery.debug.xcconfig"; path = "Target Support Files/Pods-savery/Pods-savery.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		6818A1A7ED9C49A4BC330E05 /* RCTBluetoothSerial.xcodeproj */ = {isa = PBXFileReference; name = "RCTBluetoothSerial.xcodeproj"; path = "../node_modules/react-native-bluetooth-serial-next/ios/RCTBluetoothSerial.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
@@ -77,7 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BAC68C024064639A3CA75A7 /* libPods-riderApp-riderAppTests.a in Frameworks */,
+				1BAC68C024064639A3CA75A7 /* libPods-savery-saveryTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,7 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5898B598E9D82D666F359D45 /* libPods-riderApp.a in Frameworks */,
+				5898B598E9D82D666F359D45 /* libPods-savery.a in Frameworks */,
 				9094F7CAA6CA41F199BA4F20 /* libRCTBluetoothSerial.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -94,7 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1541838735895DE116F12628 /* libPods-riderApp-tvOS.a in Frameworks */,
+				1541838735895DE116F12628 /* libPods-savery-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,20 +102,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66E462F28D8BC5ADDC98C00D /* libPods-riderApp-tvOSTests.a in Frameworks */,
+				66E462F28D8BC5ADDC98C00D /* libPods-savery-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* riderAppTests */ = {
+		00E356EF1AD99517003FC87E /* saveryTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* riderAppTests.m */,
+				00E356F21AD99517003FC87E /* saveryTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = riderAppTests;
+			path = saveryTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -126,7 +126,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* riderApp */ = {
+		13B07FAE1A68108700A75B9A /* savery */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -137,20 +137,20 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = riderApp;
+			name = savery;
 			sourceTree = "<group>";
 		};
 		13CA9A5F3003DF41A63E1552 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E0927E181A56CEDAE043AAC8 /* Pods-riderApp.debug.xcconfig */,
-				AED0F679CB9C0D4F3BAB1BD7 /* Pods-riderApp.release.xcconfig */,
-				9ED71C49D1B91FE0004C44B2 /* Pods-riderApp-riderAppTests.debug.xcconfig */,
-				7CD6BDF2C9ECEBE2CF58CE16 /* Pods-riderApp-riderAppTests.release.xcconfig */,
-				7D085592BF0BB38000F2BAEF /* Pods-riderApp-tvOS.debug.xcconfig */,
-				9CED88F04F1EC014556002B4 /* Pods-riderApp-tvOS.release.xcconfig */,
-				71D2C60FB77A6F44D1979731 /* Pods-riderApp-tvOSTests.debug.xcconfig */,
-				49502885C9F5D36087214555 /* Pods-riderApp-tvOSTests.release.xcconfig */,
+				E0927E181A56CEDAE043AAC8 /* Pods-savery.debug.xcconfig */,
+				AED0F679CB9C0D4F3BAB1BD7 /* Pods-savery.release.xcconfig */,
+				9ED71C49D1B91FE0004C44B2 /* Pods-savery-saveryTests.debug.xcconfig */,
+				7CD6BDF2C9ECEBE2CF58CE16 /* Pods-savery-saveryTests.release.xcconfig */,
+				7D085592BF0BB38000F2BAEF /* Pods-savery-tvOS.debug.xcconfig */,
+				9CED88F04F1EC014556002B4 /* Pods-savery-tvOS.release.xcconfig */,
+				71D2C60FB77A6F44D1979731 /* Pods-savery-tvOSTests.debug.xcconfig */,
+				49502885C9F5D36087214555 /* Pods-savery-tvOSTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -161,10 +161,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				BE8057866474277304B31658 /* libPods-riderApp.a */,
-				03F0750D18CE398DA89DF105 /* libPods-riderApp-riderAppTests.a */,
-				8FC38EADCCF8E8A5C75B00C9 /* libPods-riderApp-tvOS.a */,
-				293D7E4A9215492D3404DF69 /* libPods-riderApp-tvOSTests.a */,
+				BE8057866474277304B31658 /* libPods-savery.a */,
+				03F0750D18CE398DA89DF105 /* libPods-savery-saveryTests.a */,
+				8FC38EADCCF8E8A5C75B00C9 /* libPods-savery-tvOS.a */,
+				293D7E4A9215492D3404DF69 /* libPods-savery-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -180,9 +180,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* riderApp */,
+				13B07FAE1A68108700A75B9A /* savery */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* riderAppTests */,
+				00E356EF1AD99517003FC87E /* saveryTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				13CA9A5F3003DF41A63E1552 /* Pods */,
@@ -195,10 +195,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* riderApp.app */,
-				00E356EE1AD99517003FC87E /* riderAppTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* riderApp-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* riderApp-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* savery.app */,
+				00E356EE1AD99517003FC87E /* saveryTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* savery-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* savery-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -206,9 +206,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* riderAppTests */ = {
+		00E356ED1AD99517003FC87E /* saveryTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "riderAppTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "saveryTests" */;
 			buildPhases = (
 				5D03A6CFAC472C4946B40FD3 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -221,14 +221,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = riderAppTests;
-			productName = riderAppTests;
-			productReference = 00E356EE1AD99517003FC87E /* riderAppTests.xctest */;
+			name = saveryTests;
+			productName = saveryTests;
+			productReference = 00E356EE1AD99517003FC87E /* saveryTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* riderApp */ = {
+		13B07F861A680F5B00A75B9A /* savery */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "riderApp" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "savery" */;
 			buildPhases = (
 				925A8B656C42780B519E447B /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -242,14 +242,14 @@
 			);
 			dependencies = (
 			);
-			name = riderApp;
-			productName = riderApp;
-			productReference = 13B07F961A680F5B00A75B9A /* riderApp.app */;
+			name = savery;
+			productName = savery;
+			productReference = 13B07F961A680F5B00A75B9A /* savery.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* riderApp-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* savery-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "riderApp-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "savery-tvOS" */;
 			buildPhases = (
 				74989E4CC03C64367AB691DE /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -262,14 +262,14 @@
 			);
 			dependencies = (
 			);
-			name = "riderApp-tvOS";
-			productName = "riderApp-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* riderApp-tvOS.app */;
+			name = "savery-tvOS";
+			productName = "savery-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* savery-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* riderApp-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* savery-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "riderApp-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "savery-tvOSTests" */;
 			buildPhases = (
 				9991FBBE3096E8908696FBAA /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -281,9 +281,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "riderApp-tvOSTests";
-			productName = "riderApp-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* riderApp-tvOSTests.xctest */;
+			name = "savery-tvOSTests";
+			productName = "savery-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* savery-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -312,7 +312,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "riderApp" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "savery" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -325,10 +325,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* riderApp */,
-				00E356ED1AD99517003FC87E /* riderAppTests */,
-				2D02E47A1E0B4A5D006451C7 /* riderApp-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* riderApp-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* savery */,
+				00E356ED1AD99517003FC87E /* saveryTests */,
+				2D02E47A1E0B4A5D006451C7 /* savery-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* savery-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -402,7 +402,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-riderApp-riderAppTests/Pods-riderApp-riderAppTests-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-savery-saveryTests/Pods-savery-saveryTests-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -411,7 +411,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-riderApp-riderAppTests/Pods-riderApp-riderAppTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-savery-saveryTests/Pods-savery-saveryTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		5D03A6CFAC472C4946B40FD3 /* [CP] Check Pods Manifest.lock */ = {
@@ -429,7 +429,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-riderApp-riderAppTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-savery-saveryTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -451,7 +451,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-riderApp-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-savery-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -473,7 +473,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-riderApp-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-savery-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -495,7 +495,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-riderApp-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-savery-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -508,7 +508,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-riderApp/Pods-riderApp-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-savery/Pods-savery-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -517,7 +517,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-riderApp/Pods-riderApp-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-savery/Pods-savery-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -565,7 +565,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* riderAppTests.m in Sources */,
+				00E356F31AD99517003FC87E /* saveryTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -591,7 +591,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* riderAppTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* saveryTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -600,12 +600,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* riderApp */;
+			target = 13B07F861A680F5B00A75B9A /* savery */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* riderApp-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* savery-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -613,14 +613,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9ED71C49D1B91FE0004C44B2 /* Pods-riderApp-riderAppTests.debug.xcconfig */;
+			baseConfigurationReference = 9ED71C49D1B91FE0004C44B2 /* Pods-savery-saveryTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = riderAppTests/Info.plist;
+				INFOPLIST_FILE = saveryTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -630,7 +630,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/riderApp.app/riderApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/savery.app/savery";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -644,11 +644,11 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7CD6BDF2C9ECEBE2CF58CE16 /* Pods-riderApp-riderAppTests.release.xcconfig */;
+			baseConfigurationReference = 7CD6BDF2C9ECEBE2CF58CE16 /* Pods-savery-saveryTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = riderAppTests/Info.plist;
+				INFOPLIST_FILE = saveryTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -658,7 +658,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/riderApp.app/riderApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/savery.app/savery";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -672,13 +672,13 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E0927E181A56CEDAE043AAC8 /* Pods-riderApp.debug.xcconfig */;
+			baseConfigurationReference = E0927E181A56CEDAE043AAC8 /* Pods-savery.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = riderApp/Info.plist;
+				INFOPLIST_FILE = savery/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -686,7 +686,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = riderApp;
+				PRODUCT_NAME = savery;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -699,12 +699,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AED0F679CB9C0D4F3BAB1BD7 /* Pods-riderApp.release.xcconfig */;
+			baseConfigurationReference = AED0F679CB9C0D4F3BAB1BD7 /* Pods-savery.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = riderApp/Info.plist;
+				INFOPLIST_FILE = savery/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -712,7 +712,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = riderApp;
+				PRODUCT_NAME = savery;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				HEADER_SEARCH_PATHS = (
@@ -724,7 +724,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7D085592BF0BB38000F2BAEF /* Pods-riderApp-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 7D085592BF0BB38000F2BAEF /* Pods-savery-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -735,14 +735,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "riderApp-tvOS/Info.plist";
+				INFOPLIST_FILE = "savery-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.riderApp-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.savery-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -760,7 +760,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9CED88F04F1EC014556002B4 /* Pods-riderApp-tvOS.release.xcconfig */;
+			baseConfigurationReference = 9CED88F04F1EC014556002B4 /* Pods-savery-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -771,14 +771,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "riderApp-tvOS/Info.plist";
+				INFOPLIST_FILE = "savery-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.riderApp-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.savery-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -796,7 +796,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 71D2C60FB77A6F44D1979731 /* Pods-riderApp-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 71D2C60FB77A6F44D1979731 /* Pods-savery-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -806,17 +806,17 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "riderApp-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "savery-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.riderApp-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.savery-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/riderApp-tvOS.app/riderApp-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/savery-tvOS.app/savery-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -831,7 +831,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 49502885C9F5D36087214555 /* Pods-riderApp-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 49502885C9F5D36087214555 /* Pods-savery-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -841,17 +841,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "riderApp-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "savery-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.riderApp-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.savery-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/riderApp-tvOS.app/riderApp-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/savery-tvOS.app/savery-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -980,7 +980,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "riderAppTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "saveryTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -989,7 +989,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "riderApp" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "savery" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -998,7 +998,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "riderApp-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "savery-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -1007,7 +1007,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "riderApp-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "savery-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -1016,7 +1016,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "riderApp" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "savery" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

@@ -3,7 +3,7 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '10.0'
 
-target 'riderApp' do
+target 'savery' do
   config = use_native_modules!
 
   use_react_native!(:path => config["reactNativePath"])
@@ -12,7 +12,9 @@ target 'riderApp' do
 
   pod 'react-native-splash-screen', :path => '../node_modules/react-native-splash-screen'
 
-  target 'riderAppTests' do
+  pod 'react-native-geolocation', :path => '../node_modules/@react-native-community/geolocation'
+
+  target 'saveryTests' do
     inherit! :complete
     # Pods for testing
   end
@@ -27,10 +29,10 @@ target 'riderApp' do
   end
 end
 
-target 'riderApp-tvOS' do
-  # Pods for riderApp-tvOS
+target 'savery-tvOS' do
+  # Pods for savery-tvOS
 
-  target 'riderApp-tvOSTests' do
+  target 'savery-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end
